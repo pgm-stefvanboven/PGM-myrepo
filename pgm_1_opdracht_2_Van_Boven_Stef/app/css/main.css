@@ -1,0 +1,33 @@
+#Nav-objects {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    width: 20rem;
+    border-radius: 2% 2% 2% 2%;
+    box-shadow: -0.3125rem 0.2rem 0.2rem hsla(0, 0%, 0%, 10%);
+}
+
+div.project {
+    margin-top: 2rem;
+}
+
+.project-screenshots img {
+    display: flex;
+    height: 20rem;
+    width: 15rem;
+    border-radius: 2% 2% 2% 2%;
+    background-size: cover;
+}
+
+.project-title {
+    word-wrap: break-word;
+}
